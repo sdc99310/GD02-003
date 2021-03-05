@@ -1,0 +1,29 @@
+/* ////////door///////// */
+.door {
+	display: flex;
+	justify-content: center;
+	position: relative;
+  }
+  .structure {
+	width: 300px;
+	height: 500px;
+   background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+  }
+  
+  .window1 {
+		content: "";
+		position: absolute;
+		background: white;
+		height: 200px;
+		width: 200px;
+		bottom: 250px;
+		border-radius: 100px;
+  }
+  .window2 {
+	content: "";
+		position: absolute;
+		background: white;
+		height: 355px;
+		width: 200px;
+		bottom: 0px;
+  }
