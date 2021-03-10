@@ -751,7 +751,7 @@ body {
 			width: 1500px;
 			bottom: 0px;
 			border-radius: 16000px 16000px 16000px 16000px;
-			background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+			background-color: transparent;
 			/* border-left: solid 30px grey;
 			border-bottom: solid 30px rgba(235, 235, 235, 0.954);  */
 		}
@@ -3701,7 +3701,7 @@ body {
 	position: absolute;
 	top:0;
 	left: 0;
-	width: 100%;
+	width: 1700px;
 	height: 100%;
 	/* height: 768px; */
 	background: url(clouds.png);
@@ -3712,9 +3712,61 @@ body {
 		background-position: 0px;
 	}
 	100% {
-		background-position: 5400px;
+		background-position: 5600px;
 	}
 }
+/*////////////////////////////////////menu//////////*/
+.dropbtn {
+	background-color: transparent;
+	box-shadow: transparent;
+	position: absolute;
+	color: white;
+	padding: 16px;
+	border: none;
+	top: 10px;
+	left: -62px;
+	width: 120px;
+	height: 240px;
+	border-radius: 100px 100px 100px 100px;
+	cursor: pointer;
+	transition: all, 0.7s;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	/* top: 260px;
+	left: -460px; */
+	/* top: 250px;
+	left: -250px; */
+	top: 240px;
+	left: -100px;
+	background-color:transparent;
+	min-width: 100vh;
+	z-index: 1;
+  }
+
+  .dropdown-content a {
+	color: black;
+	padding: 10px 200px;
+	/* text-align: center; */
+	text-decoration: none;
+	display: block;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 30px;
+	text-transform: lowercase;
+  }
+  .dropdown-content a:hover {font-family: 'Diplomata', cursive;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {box-shadow: 7px 8px 6px 5px grey;}
+
 
 /*----------work cited
 	https://thrillfighter.tistory.com/480           // position
@@ -3723,6 +3775,9 @@ body {
 	https://dev.to/annlin/floating-spaceship-4493   // floating animation
 	https://www.youtube.com/watch?v=ME7SGQTDbcY     // flying birds
 	https://khaledkzy.github.io/pixel-vh-vw-converter/ //px to vw translator
+	<a href="http://www.blueb.co.kr/?c=1/8&uid=1751&mod=simulation&iframe=Y" target="_blank">커서 주변을 빙빙 돌면서 따라다니는 텍스트 - 소스 시뮬레이션</a> //////mouse cursor effect
+
+	
 
 	<a href="https://www.freepik.com/photos/background">Background photo created by rawpixel.com - www.freepik.com</a> //background image
 
